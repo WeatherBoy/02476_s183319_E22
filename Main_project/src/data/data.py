@@ -12,7 +12,7 @@ NUM_DATA_SETS = 5
 def mnist():
     # exchange with the corrupted mnist dataset
     print(os.getcwd())
-    PATH = "../../data/corruptmnist/"
+    PATH = "../../data/processed/corruptmnist/"
     train_sets = []
     for i in range(NUM_DATA_SETS):
         train_set = np.load(PATH + f"train_{i}.npz")
