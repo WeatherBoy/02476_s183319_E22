@@ -58,7 +58,7 @@ def validation(
         # Class with highest probability is our predicted class, compare with true label
         equality = labels.data == ps.max(1)[1]
         # Accuracy is number of correct predictions divided by all predictions, just take the mean
-        accuracy += equality.type_as(torch.FloatTensor()).mean().item()
+        accuracy += equality.type_as(torch.FloatTensor()).mean()
 
     return test_loss, accuracy
 
