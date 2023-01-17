@@ -93,13 +93,3 @@ def saveResponseAsJson(
 
 
 saveResponseAsJson(response_4, filename="github_python_request")
-
-
-#%% IMAGES IN REQUESTS ****************************************************************************
-# Here we get an image:
-import requests
-
-response_im = requests.get("https://imgs.xkcd.com/comics/making_progress.png")
-print(response_im.json())
-
-# %%
