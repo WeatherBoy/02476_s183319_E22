@@ -3,6 +3,10 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 # Created by Felix Bo Caspersen, s183319 on Fri Jan 06 2023
 
+# import os
+
+# print(os.getcwd())
+
 import click
 import matplotlib.pyplot as plt
 import numpy as np

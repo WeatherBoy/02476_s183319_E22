@@ -5,9 +5,10 @@
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 # Created by Felix Bo Caspersen, s183319 on Tue Jan 17 2023
 
-import requests
-import os
 import json
+import os
+
+import requests
 
 
 def checkValidResponse(response: requests.Response) -> None:
